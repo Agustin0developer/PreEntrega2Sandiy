@@ -1,4 +1,4 @@
-# PreEntrega2Sandiy
+# Instalaciones
 
 * 1- npm install
 * 2- npm add -D sass
