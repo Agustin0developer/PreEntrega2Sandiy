@@ -1,0 +1,30 @@
+@import '../../style/themes/main-palet.scss';
+
+.imgCarrito {
+    width: 50px;
+    padding-left: 1rem;
+    margin-right: 10px;
+    &:hover {
+        color: #fff;
+        transform: translateY(-10px);
+        border-radius: 20px;
+      }
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    outline: none;
+    height: 100%;
+}
+
+.cartItemCount {
+    font-weight: bold;
+    font-size: 18px;
+    color: #ff5733;
+    background-color: #f2f2f2;
+    padding: 2px 8px;
+    border-radius: 50%;
+}

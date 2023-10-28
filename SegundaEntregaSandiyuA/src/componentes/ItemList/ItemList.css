@@ -1,0 +1,21 @@
+.contenedorProductos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Agrega espaciado entre los elementos del contenedor */
+  }
+  
+  /* Estilo para los elementos de productos dentro del contenedor */
+  .contenedorProductos > div {
+    flex: 1; /* Distribuye los elementos de manera equitativa en el contenedor */
+    background-color: #f4f4f4; /* Color de fondo para los elementos */
+    border: 1px solid #ccc; /* Borde de los elementos */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 20px; /* Relleno interior */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    transition: background-color 0.3s ease; /* Transición suave para el color de fondo */
+  }
+  
+  /* Cambia el color de fondo de los elementos al pasar el cursor sobre ellos */
+  .contenedorProductos > div:hover {
+    background-color: #e0e0e0;
+  }

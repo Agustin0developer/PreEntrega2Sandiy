@@ -1,0 +1,53 @@
+.contenedorItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    text-align: center;
+    margin: 20px; /* Ajusta el margen a tu preferencia */
+  }
+  
+  .contenedorItem img {
+    width: 35vw;
+    object-fit: contain;
+  }
+  
+  /* Estilo para los títulos */
+  h2 {
+    font-size: 24px;
+    color: #333; /* Cambia el color de texto a tu preferencia */
+    font-weight: 600;
+    margin: 10px 0;
+  }
+  
+  /* Estilo para los subtítulos */
+  h3 {
+    font-size: 18px;
+    color: #666; /* Cambia el color de texto a tu preferencia */
+    margin: 10px 0;
+  }
+  
+  /* Estilo para el párrafo de descripción */
+  p {
+    font-size: 16px;
+    color: #888; /* Cambia el color de texto a tu preferencia */
+    margin: 10px 0;
+  }
+  
+  /* Cambia el color de fondo al pasar el cursor sobre el contenedor */
+  .contenedorItem:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .descripcion-seccion {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+  }

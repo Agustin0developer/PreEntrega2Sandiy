@@ -1,0 +1,97 @@
+
+@import '../../style/themes/main-palet.scss';
+
+$teak-50: #f8f5ee;
+$teak-100: #ede7d4;
+$teak-200: #dcceac;
+$teak-300: #c7af7d;
+$teak-400: #be9f6a;
+$teak-500: #a7824b;
+$teak-600: #90673e;
+$teak-700: #744f34;
+$teak-800: #624331;
+$teak-900: #55392e;
+$teak-950: #301e18;
+
+
+
+header {
+  background-color: #f8f5ee;
+  color: #ffd700; /* Yellow text */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  margin: 0;
+}
+
+a {
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #a7824b;
+  margin: 0 20px;
+  cursor: pointer;
+  font-family: "ProximaNova-Black", "Segoe UI", sans-serif;
+  border: none; 
+  text-decoration: none; 
+  padding: 10px 20px;
+  border-radius: 5px; 
+  transition: background-color 0.3s ease;
+}
+
+
+a:hover {
+  background-color: #e4b674;
+}
+
+.input-busqueda {
+  margin-top: -9px;
+  width: 100%; 
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc; 
+  border-radius: 5px;
+  background-color: #fff; 
+  color: #333; /* Color de texto */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  transition: border-color 0.3s ease; 
+}
+
+
+.input-busqueda:focus {
+  border-color: #007bff; 
+}
+
+/* Image Styles */
+img {
+  width: 50px;
+  margin-right: 10px;
+  &:hover {
+    transform: translateY(-5px);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+}
+
+/* Cart Styles */
+.carrito-compras {
+  background-color: #000;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
